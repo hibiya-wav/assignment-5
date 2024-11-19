@@ -1,0 +1,59 @@
+/*
+  Daniel Santos Martinez
+  UCID: ds73
+  November 20, 2024
+  ASSIGNMENT 5
+*/
+
+.line-chart-visualization {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.radio-buttons,
+.month-dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.month-dropdown {
+    margin-top: 10px;
+}
+
+.radio-buttons span {
+    margin-right: 10px;
+}
+
+.radio-buttons label {
+    margin-right: 10px;
+}
+
+.stock-data-tooltip {
+    opacity: 0;
+    position: absolute;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+    pointer-events: none;
+}
+
+.x-axis-label {
+    text-anchor: start;
+}
+
+.open-legend-box {
+    fill: #b2df8a;
+}
+
+.close-legend-box {
+    fill: #e41a1c;
+}
+
+.open-legend-text,
+.close-legend-text {
+    font-size: 14px;
+}
